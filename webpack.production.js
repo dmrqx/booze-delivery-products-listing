@@ -3,8 +3,9 @@ import { resolve } from 'path'
 import { HashedModuleIdsPlugin } from 'webpack'
 
 import { CleanWebpackPlugin } from 'clean-webpack-plugin'
-import MiniCssExtractPlugin from 'extract-css-chunks-webpack-plugin'
+import Dotenv from 'dotenv-webpack'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
+import MiniCssExtractPlugin from 'extract-css-chunks-webpack-plugin'
 
 export default function webpackProductionConfig (env = {}) {
   return {
@@ -74,6 +75,7 @@ export default function webpackProductionConfig (env = {}) {
     },
     plugins: [
       new CleanWebpackPlugin(),
+      new Dotenv(),
       new HtmlWebpackPlugin({
         appMountId: 'app',
         meta: {

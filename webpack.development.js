@@ -2,8 +2,8 @@ import { resolve } from 'path'
 
 import { HotModuleReplacementPlugin, NamedModulesPlugin } from 'webpack'
 
-import Dotenv from 'dotenv-webpack'
 import { CleanWebpackPlugin } from 'clean-webpack-plugin'
+import Dotenv from 'dotenv-webpack'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import MiniCssExtractPlugin from 'extract-css-chunks-webpack-plugin'
 
