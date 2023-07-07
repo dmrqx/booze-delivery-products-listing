@@ -79,7 +79,7 @@
     "postcss-preset-env": "^6.7.0",
     "prettier-standard": "^16.3.0",
     "standardx": "^5.0.0",
-    "stylelint": "^13.6.1",
+    "stylelint": "^15.10.1",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
